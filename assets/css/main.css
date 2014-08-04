@@ -1,0 +1,303 @@
+ /* Originally Created by Carlos Alvarez
+ * URL: http://alvarez.is
+ *
+ * Project Name: Kelvin - Free Bootstrap 3 Resume Theme
+ * Version: 1.0
+ * URL: http://blacktie.co
+ *
+ * Modified by Yuko Nakamura
+ * For Yuko Nakamura – PhD Student at Buildings-Landscapes_Cultures program
+ */
+
+body {
+  background-color: #f3f3f2;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #474a4d;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+h1, h2, h3, h4, h6 {
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #383c3c;
+}
+
+h5 {
+    font-family: "Raleway";
+    font-weight: 400;
+    color: #383c3c;
+}
+
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #e9546b;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #727171;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+/*---------------------------------------------------
+	3.1 Topbar
+---------------------------------------------------*/
+
+#section-topbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 10000;
+	overflow: visible;
+	font: normal 16px/24px  'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#section-topbar a {
+  color: #f3f3f2;
+}
+
+#topbar-inner {
+	background: #111;
+	line-height: 0;
+	text-align: center;
+}
+
+/*
+	Top Bar
+
+	By default, top navigation bar uses "fixed" position
+*/
+
+#section-topbar ul#nav {
+	display: inline-block;
+	position: relative;
+	margin: 0;
+	padding: 0;
+
+	border-right: 1px solid #222222;
+
+	/* For IE, the outcast */
+	zoom:1;
+	*display: inline;
+}
+
+#section-topbar ul#nav > li {
+	display: block;
+    float: left;
+    padding: 0;
+}
+
+#section-topbar ul#nav a {
+  display: block;
+  font: normal 11px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  padding: 18px 20px 18px 20px;
+  border-left: 1px solid #222222;
+}
+
+	#section-topbar ul#nav a:hover {
+	  background: #222222;
+	  text-decoration: none;
+	  border-left: 1px solid #111;
+	}
+
+	#section-topbar ul#nav .active a {
+		background: #e9546b;
+		border-left: 1px solid #111;
+	}
+
+		#section-topbar ul#nav .active a:hover {
+			background: #e9546b;
+		}
+#section-topbar i {
+	font-size: 25px;
+}
+
+/*---------------------------------------------------
+	SECTION WRAPS
+---------------------------------------------------*/
+
+/* Header Wrap */
+#headerwrap {
+	background: url(../img/header-bg.jpg) no-repeat center top;
+	margin-top: 60px;
+	padding-top:140px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 500px;
+	width: 100%;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap h1 {
+	font-size: 80px;
+	font-weight: 400;
+	color: #f3f3f2;
+	text-shadow:1px 1px 6px #474a4d;
+}
+
+#headerwrap h3 {
+	font-size: 20px;
+	font-weight: 400;
+	color: #f3f3f2;
+	text-shadow:0.5px 0.50px 3px #474a4d;
+}
+
+/* Intnro Wrap */
+
+#intro {
+	background: #22475E;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	color: #f3f3f2;
+}
+
+#intro h5, p {
+	color: #f3f3f2;
+}
+
+#intro i {
+	color: #f3f3f2;
+	font-size: 20px;
+	padding-right: 8px;
+	vertical-align: middle;
+}
+
+
+#skillswrap {
+	background: #22475E;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	color: #f3f3f2;
+}
+
+#skillswrap h5, p {
+	color: #f3f3f2;
+}
+
+#footwrap {
+	background: #2b2b2b;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#footwrap p {
+	color: #f3f3f2;
+}
+
+#footwrap h5 {
+	color: #f3f3f2;
+}
+
+#footwrap label {
+	color: #f3f3f2;
+	font-weight: 300;
+}
+
+#footwrap t {
+	font-weight: 700;
+}
+
+#footwrap i {
+	padding-right: 8px;
+	color: #e9546b;
+}
+
+
+/* Copyright Wrap */
+
+#c {
+	background: #222222;
+	padding-top: 15px;
+	text-align: right;
+}
+
+#c p {
+	color: #f3f3f2
+}
+
+
+
+/* Global Values */
+
+.desc {
+	padding-top: 50px;
+}
+
+.desc p {
+	color: #2b2b2b;
+}
+
+.desc t {
+	color: #22475E;
+	font-weight: 700;
+}
+
+.desc imp {
+	padding: 6px;
+	color: #f3f3f2;
+	background: #22475E;
+}
+
+.desc more {
+	color: #7d7d7d;
+}
+
+
+sm {
+	font-size: 12px;
+}
