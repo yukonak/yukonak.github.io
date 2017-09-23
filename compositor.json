@@ -1,0 +1,80 @@
+{
+  "name": "yukonak/yukonak.github.io",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "CV",
+  "branch": "master",
+  "style": {
+    "name": "Williamsburg",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/LightBannerHeader",
+      "article": "article/ReaderArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "Montserrat, sans-serif",
+    "heading": {
+      "fontWeight": 600,
+      "letterSpacing": "0.1em"
+    },
+    "colors": {
+      "text": "#346",
+      "background": "#fff",
+      "primary": "#0099e0",
+      "secondary": "#ab61ff",
+      "highlight": "#f7b",
+      "muted": "#fffab3",
+      "border": "#ccd"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/yukonak/yukonak.github.io",
+          "text": "GitHub"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "yukonak.github.io",
+      "subhead": "Personal Website",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "yukonak.github.io: Personal Website",
+          "url": ""
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "yukonak",
+          "repo": "yukonak.github.io"
+        }
+      ]
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "\n<p>My resume website</p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/yukonak/yukonak.github.io",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/yukonak",
+          "text": "yukonak"
+        }
+      ]
+    }
+  ]
+}
